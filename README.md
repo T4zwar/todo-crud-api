@@ -73,6 +73,17 @@ The SQLite database is created automatically when the application starts.
 | PUT | `/todos/:id` | Update a Todo |
 | DELETE | `/todos/:id` | Delete a Todo |
 
+## HTTP Status Codes
+
+| Status Code | Meaning |
+|---|---|
+| 200 OK | Request completed successfully |
+| 201 Created | Todo created successfully |
+| 400 Bad Request | Invalid request data or Todo ID |
+| 404 Not Found | Todo does not exist |
+| 500 Internal Server Error | Unexpected server error |
+
+
 ## Example Requests
 
 ### Create a Todo
