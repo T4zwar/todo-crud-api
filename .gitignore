@@ -1,0 +1,10 @@
+# SQLite database files
+todos.db
+*.db
+
+# Environment files
+.env
+
+# Build outputs
+*.exe
+*.out
